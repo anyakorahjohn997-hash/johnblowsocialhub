@@ -142,3 +142,123 @@ section p {
     color: #0756b5;
     margin-top: 15px;
 }
+a {
+    background-color: #25D366;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #128C7E;
+}
+a {
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+h1, h2 {
+    color: #D4AF37;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    background-color: #111111;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+section {
+    background-color: #1c1c1c;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+    border: 1px solid #D4AF37;
+    text-align: center;
+}
+section {
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.15);
+    transition: 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #eeeeee;
+    text-align: center;
+}
+h3 {
+    color: #D4AF37;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+nav {
+    background-color: #1c1c1c;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #D4AF37;
+}
+
+nav a {
+    color: #D4AF37;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 12px 0;
+        padding: 8px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 18px;
+    }
+}
+header {
+    background-color: #000000;
+    padding: 35px 20px;
+    text-align: center;
+    border-bottom: 2px solid #D4AF37;
+}
+
+header h1 {
+    color: #D4AF37;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #ffffff;
+    font-size: 16px;
+}
+header {
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.25);
+}
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    border-top: 2px solid #D4AF37;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #D4AF37;
+    font-size: 14px;
+}
