@@ -59,3 +59,17 @@ footer {
     margin-top: 25px;
     border-radius: 10px;
 }
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #0756b5;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
