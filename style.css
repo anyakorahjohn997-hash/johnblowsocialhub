@@ -121,3 +121,13 @@ section {
     border-radius: 12px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.05);
 }
+section h2 {
+    color: #0756b5;
+    border-bottom: 2px solid #25D366;
+    padding-bottom: 8px;
+}
+
+section p {
+    color: #444444;
+    line-height: 1.8;
+}
