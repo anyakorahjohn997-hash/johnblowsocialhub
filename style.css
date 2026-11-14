@@ -105,3 +105,12 @@ header h1 {
 .service-card p {
     color: #555;
 }
+section h2 {
+    color: #0756b5;
+    font-size: 24px;
+}
+
+section p {
+    line-height: 1.7;
+    font-size: 16px;
+}
