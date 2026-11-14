@@ -374,3 +374,21 @@ a:hover {
     max-width: 400px;
     box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
 }
+.contact {
+    background-color: #151515;
+    padding: 40px 20px;
+    text-align: center;
+    border: 1px solid #D4AF37;
+    border-radius: 12px;
+    margin: 25px auto;
+    max-width: 900px;
+}
+
+.contact h2 {
+    color: #D4AF37;
+    font-size: 30px;
+}
+
+.contact p {
+    color: #ffffff;
+}
