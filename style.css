@@ -345,3 +345,32 @@ a:hover {
     color: white;
     font-size: 18px;
 }
+.services {
+    background-color: #151515;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid #D4AF37;
+}
+
+.services h2 {
+    color: #D4AF37;
+    font-size: 30px;
+}
+
+.services h3 {
+    color: #D4AF37;
+    margin-top: 25px;
+}
+
+.services p {
+    color: #ffffff;
+}
+.services .container h3 {
+    background: #222222;
+    padding: 25px;
+    border: 1px solid #D4AF37;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
+}
