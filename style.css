@@ -73,3 +73,10 @@ nav a {
     font-weight: bold;
     margin: 10px;
 }
+nav a {
+    background-color: transparent;
+    color: #0756b5;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
