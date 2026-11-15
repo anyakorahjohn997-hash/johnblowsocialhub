@@ -170,6 +170,12 @@
 </footer>
 <a href="#" class="back-to-top">Back to Top ↑</a>
 <script>
+const signupForm = document.getElementById("signupForm");
+
+signupForm.addEventListener("submit", function(event) {
+  const password = document.getElementById("password").value;
+  const confirmPassword = document.getElementById("confirmPassword").value;
+});
 </script>
 </body>
 </html>
