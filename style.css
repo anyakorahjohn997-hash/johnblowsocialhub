@@ -471,3 +471,9 @@ a:hover {
     font-size: 24px;
   }
 }
+@media (max-width: 600px) {
+  .about p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+}
