@@ -402,3 +402,48 @@ a:hover {
   font-size: 28px;
   margin-bottom: 15px;
 }
+.about h2 {
+  color: #222;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.about p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: auto;
+}
+.about p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: auto;
+}
+.about {
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.about h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.about {
+  border: 1px solid #ddd;
+}
+.about {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+.about {
+  background: #ffffff;
+}
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.about p {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
