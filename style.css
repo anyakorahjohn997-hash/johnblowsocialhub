@@ -482,3 +482,56 @@ a:hover {
   text-align: center;
   background: #ffffff;
 }
+#signup h2 {
+  color: #222;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+#signup p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+#signup input {
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 12px auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+#signup button {
+  background: #008000;
+  color: white;
+  padding: 14px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#signup button:hover {
+  background: #006400;
+}
+#signup form {
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+@media (max-width: 600px) {
+  #signup form {
+    width: 95%;
+    padding: 15px;
+  }
+}
+#signup label {
+  display: block;
+  text-align: left;
+  max-width: 400px;
+  margin: 12px auto 5px;
+  font-weight: bold;
+  color: #333;
+}
