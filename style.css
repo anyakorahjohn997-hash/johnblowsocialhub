@@ -477,3 +477,8 @@ a:hover {
     line-height: 1.7;
   }
 }
+#signup {
+  padding: 40px 20px;
+  text-align: center;
+  background: #ffffff;
+}
