@@ -447,3 +447,22 @@ a:hover {
   font-family: Arial, sans-serif;
   font-weight: 400;
 }
+.about {
+  transition: 0.3s ease;
+}
+
+.about:hover {
+  transform: translateY(-3px);
+}
+.about {
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 600px) {
+  .about {
+    width: 95%;
+    padding: 30px 15px;
+  }
+}
