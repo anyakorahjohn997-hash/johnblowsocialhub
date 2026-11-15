@@ -176,6 +176,10 @@ signupForm.addEventListener("submit", function(event) {
   const password = document.getElementById("password").value;
   const confirmPassword = document.getElementById("confirmPassword").value;
 });
+if (password !== confirmPassword) {
+  event.preventDefault();
+  alert("Your passwords do not match. Please try again.");
+}
 </script>
 </body>
 </html>
