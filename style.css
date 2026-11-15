@@ -535,3 +535,29 @@ a:hover {
   font-weight: bold;
   color: #333;
 }
+#signup input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 8px;
+}
+#signup form input {
+  box-sizing: border-box;
+}
+#signup input:focus {
+  outline: 2px solid #008000;
+  border-color: #008000;
+}
+#signup button {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+#signup input:not([type="checkbox"]) {
+  border-radius: 8px;
+}
+#signup {
+  background-color: #f8f9fa;
+}
+#signup button {
+  transition: background 0.3s ease;
+}
