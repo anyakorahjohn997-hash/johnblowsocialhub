@@ -170,16 +170,18 @@
 </footer>
 <a href="#" class="back-to-top">Back to Top ↑</a>
 <script>
-const signupForm = document.getElementById("signupForm");
-
-signupForm.addEventListener("submit", function(event) {
+document.getElementById("signupForm").addEventListener("submit", function(event) {
   const password = document.getElementById("password").value;
   const confirmPassword = document.getElementById("confirmPassword").value;
+
+  if (password !== confirmPassword) {
+    event.preventDefault();
+    alert("Your passwords do not match. Please try again.");
+  } else {
+    event.preventDefault();
+    alert("Password confirmation successful!");
+  }
 });
-if (password !== confirmPassword) {
-  event.preventDefault();
-  alert("Your passwords do not match. Please try again.");
-}
 </script>
 </body>
 </html>
