@@ -779,3 +779,30 @@ a:hover {
     border-radius: 8px;
     cursor: pointer;
 }
+.main-navigation {
+    background: #007bff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+.main-navigation a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.main-navigation a:hover {
+    background: #0056b3;
+    border-radius: 6px;
+}
+@media (max-width: 480px) {
+    .main-navigation a {
+        display: block;
+        padding: 12px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+}
