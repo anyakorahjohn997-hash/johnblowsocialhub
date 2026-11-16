@@ -593,3 +593,6 @@ a:hover {
   color: #666;
   font-size: 12px;
 }
+#signup small {
+  line-height: 1.6;
+}
