@@ -561,3 +561,21 @@ a:hover {
 #signup button {
   transition: background 0.3s ease;
 }
+.password-box {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin: 12px auto;
+}
+
+.password-box input {
+  flex: 1;
+  margin: 0;
+}
+
+.password-box button {
+  width: auto !important;
+  padding: 10px;
+  background: #eeeeee !important;
+  color: #222 !important;
+}
