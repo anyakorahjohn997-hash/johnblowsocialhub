@@ -676,3 +676,25 @@ a:hover {
 .signup-form a:hover {
     text-decoration: underline;
 }
+.dashboard-section {
+    background-color: #f4f7fb;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 500px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.dashboard-section h2 {
+    color: #007bff;
+    font-size: 24px;
+}
+
+.dashboard-section h3 {
+    color: #333;
+}
+
+.dashboard-section p {
+    color: #555;
+    font-size: 16px;
+}
