@@ -698,3 +698,33 @@ a:hover {
     color: #555;
     font-size: 16px;
 }
+.add-funds-section {
+    background: #ffffff;
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.add-funds-section h2 {
+    color: #007bff;
+}
+
+.add-funds-section input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.add-funds-section button {
+    background: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
