@@ -540,7 +540,7 @@ a:hover {
   width: auto;
   margin-right: 8px;
 }
-#signup form input {
+.signup-form input:not([type="checkbox"]) {
   box-sizing: border-box;
 }
 #signup input:focus {
