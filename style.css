@@ -585,3 +585,11 @@ a:hover {
   cursor: pointer;
   font-size: 18px;
 }
+#signup small {
+  display: block;
+  max-width: 400px;
+  margin: 5px auto;
+  text-align: left;
+  color: #666;
+  font-size: 12px;
+}
