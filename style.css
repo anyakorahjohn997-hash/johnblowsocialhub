@@ -579,3 +579,9 @@ a:hover {
   background: #eeeeee !important;
   color: #222 !important;
 }
+.password-box button {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
