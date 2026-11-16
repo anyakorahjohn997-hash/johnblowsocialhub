@@ -750,3 +750,32 @@ a:hover {
     color: #555;
     line-height: 1.6;
 }
+.services-section {
+    background: #f4f7fb;
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.services-section h2 {
+    color: #1877f2;
+}
+
+.service-card {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card button {
+    background: #1877f2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
